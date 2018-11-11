@@ -14,7 +14,7 @@ makeCacheMatrix <- function(mtx = matrix()) {
 }
 
 ## If the inverse has already been calculated
-## (and the matrix has not changed), then
+## and the matrix has not changed, then
 ## `cacheSolve` should retrieve the inverse from the cache.
 
 cacheSolve <- function(mtx, ...) {
